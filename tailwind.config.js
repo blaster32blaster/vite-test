@@ -7,4 +7,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  width: () => ({
+    '1/2': '50%',
+  })
 }
